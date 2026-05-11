@@ -1,0 +1,52 @@
+{
+  "accuracy": 0.9858461538461538,
+  "balanced_accuracy": 0.9853128991060025,
+  "precision": 1.0,
+  "recall": 0.9706257982120051,
+  "f1": 0.9850939727802981,
+  "tn_fp_fn_tp": [
+    842,
+    0,
+    23,
+    760
+  ],
+  "roc_auc": 0.9881561264762182,
+  "cv_folds": 5,
+  "cv_repeats": 1,
+  "cv_strategy": "StratifiedKFold",
+  "cv_accuracy_mean": 0.9852289503599849,
+  "cv_accuracy_std": 0.00266824658912603,
+  "cv_balanced_accuracy_mean": 0.9846775875100999,
+  "cv_balanced_accuracy_std": 0.002771783468562371,
+  "cv_precision_mean": 1.0,
+  "cv_precision_std": 0.0,
+  "cv_recall_mean": 0.9693551750201996,
+  "cv_recall_std": 0.005543566937124707,
+  "cv_f1_mean": 0.9844311017181531,
+  "cv_f1_std": 0.0028619597419313465,
+  "experiment_name": "random_forest_top1_features",
+  "model_class": "RandomForestClassifier",
+  "n_features_input": 1,
+  "selected_features": [
+    "odor"
+  ],
+  "feature_engineering": false,
+  "top_n_features": 1,
+  "test_size": 0.2,
+  "train_size": 0.8,
+  "random_state": 42,
+  "stratify_split": true,
+  "notes": "Top-k feature sweep: Random Forest using the top 1 original features ranked by Cram\u00e9r's V.",
+  "top_ranked_features": [
+    "odor",
+    "spore-print-color",
+    "gill-color",
+    "ring-type",
+    "stalk-surface-above-ring",
+    "stalk-surface-below-ring",
+    "gill-size",
+    "stalk-color-above-ring",
+    "stalk-color-below-ring",
+    "bruises"
+  ]
+}

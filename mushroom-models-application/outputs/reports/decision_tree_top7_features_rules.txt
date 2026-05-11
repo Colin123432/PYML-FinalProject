@@ -1,0 +1,28 @@
+|--- cat__odor_n <= 0.500
+|   |--- cat__odor_l <= 0.500
+|   |   |--- cat__odor_a <= 0.500
+|   |   |   |--- class: 1
+|   |   |--- cat__odor_a >  0.500
+|   |   |   |--- class: 0
+|   |--- cat__odor_l >  0.500
+|   |   |--- class: 0
+|--- cat__odor_n >  0.500
+|   |--- cat__spore-print-color_r <= 0.500
+|   |   |--- cat__stalk-surface-below-ring_y <= 0.500
+|   |   |   |--- cat__gill-size_b <= 0.500
+|   |   |   |   |--- cat__spore-print-color_w <= 0.500
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cat__spore-print-color_w >  0.500
+|   |   |   |   |   |--- cat__ring-type_p <= 0.500
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cat__ring-type_p >  0.500
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cat__gill-size_b >  0.500
+|   |   |   |   |--- class: 0
+|   |   |--- cat__stalk-surface-below-ring_y >  0.500
+|   |   |   |--- cat__gill-size_n <= 0.500
+|   |   |   |   |--- class: 0
+|   |   |   |--- cat__gill-size_n >  0.500
+|   |   |   |   |--- class: 1
+|   |--- cat__spore-print-color_r >  0.500
+|   |   |--- class: 1

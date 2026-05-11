@@ -1,0 +1,17 @@
+{
+  "best_by_f1": "decision_tree_split_70_30_cv3",
+  "n_experiments": 45,
+  "top_features": [
+    "odor",
+    "spore-print-color",
+    "gill-color",
+    "ring-type",
+    "stalk-surface-above-ring",
+    "stalk-surface-below-ring",
+    "gill-size",
+    "stalk-color-above-ring",
+    "stalk-color-below-ring",
+    "bruises"
+  ],
+  "validation_sweeps_enabled": false
+}
